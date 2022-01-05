@@ -11,7 +11,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(38, 39, 77);
+    background-color: rgb(31, 41, 55);
     color: white;
     align-items: center;
     padding-left: 100px;
@@ -29,4 +29,50 @@ body {
     display: flex;
     font-size: 10px;
     gap: 10px;
+}
+
+.s1 {
+    background-color: rgb(31, 41, 55);
+    color: white;
+    display: flex;
+    padding: 75px 100px;
+    justify-content: space-between;
+
+}
+
+.s1content {
+    width: 300px;
+    
+}
+
+.s1main{
+    display: flex;
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 10px;
+
+}
+
+.s1sub {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.s1button {
+    background-color: rgb(59, 130, 246);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 25px;
+    font-weight: 900;
+}
+
+.image {
+    display: flex;
+    background-color: rgb(109, 116, 125);
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 350px;
+    margin: 0;
 }
