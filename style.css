@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    font-size: 20px;   
+    font-size: 24px;   
     font-weight: 900; 
     padding-top:10px;
     padding-bottom: 10px;
@@ -27,7 +27,7 @@ body {
 
 .hlink {
     display: flex;
-    font-size: 10px;
+    font-size: 18px;
     gap: 10px;
 }
 
@@ -41,20 +41,20 @@ body {
 }
 
 .s1content {
-    width: 300px;
+    width: 450px;
     
 }
 
 .s1main{
     display: flex;
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 900;
     padding-bottom: 10px;
 
 }
 
 .s1sub {
-    font-size: 10px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
@@ -62,6 +62,7 @@ body {
     background-color: rgb(59, 130, 246);
     border: none;
     border-radius: 5px;
+    font-size: 18px;
     color: white;
     padding: 5px 25px;
     font-weight: 900;
@@ -72,7 +73,64 @@ body {
     background-color: rgb(109, 116, 125);
     justify-content: center;
     align-items: center;
-    font-size: 10px;
-    width: 350px;
+    font-size: 18px;
+    width: 450px;
     margin: 0;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.s2 {
+    display: flex;
+    padding: 50px 0px; 
+    flex-direction: column;
+}
+
+.s2logo { 
+    display: flex;
+    color: rgb(31, 41, 55);
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.s2content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+
+}
+
+.s2block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.s2box {
+    border: solid rgb(59, 130, 246);
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 15px;
+}
+
+.s2text {
+    display: flex;
+    font-size: 18px;
+    width: 175px;
+    flex-wrap: wrap;
+    
 }
