@@ -134,3 +134,69 @@ body {
     flex-wrap: wrap;
     
 }
+
+.s3 {
+    display: flex;
+    background-color: rgb(229, 231, 235);
+    padding:100px 0px;
+    justify-content: center;
+    
+    
+}
+
+.s3quote {
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(80, 89, 100);
+    width: 800px;
+}
+
+.s3source {
+    color: rgb(31, 41, 55);
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
+.s4 {
+    display: flex;   
+    justify-content: center;
+    padding: 100px 0px;
+    
+}
+
+.s4box {
+    display: flex;
+    background-color: rgb(59, 130, 246);
+    color: white;
+    border-radius: 15px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.s4content{
+    display: flex;
+    flex-direction: column;
+}
+
+.s4title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.s4text {
+    font-size: 18px;
+}
+
+.s4button {
+    background-color: rgb(59, 130, 246);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 5px 25px;
+    font-weight: 900;
+    border: solid white;
+}
